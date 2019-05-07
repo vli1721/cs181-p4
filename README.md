@@ -8,9 +8,10 @@ Team Members: Vincent Li, Harry Fu, Nathan Zhao
   a. Change hyperparameters in lines 13-18.  
   b. Change features in `tuple_generate` function in lines 46-96.  
 3. Change number of epochs in line 205 of `Q_learn.py` (number of epochs is 3rd parameter of `run_games` function, default value is 100).
-4. **IMPORTANT**: Change name of `.npy` file for each trial (to avoid overwriting data) in line 208.
-5. Plot and save histogram while calculating metrics with `python plot_hist.py NAME_OF_NPY_FILE`. Ex: `python plot_hist.py hist` for `hist.npy`.  
-  a. Metrics: Mean score, Mean score (last 30 epochs), SD score, SD score (last 30 epochs), High score, High score epoch.  
+4. **IMPORTANT**: Change name of `.npy` file for each trial (to avoid overwriting data) in line 208 of `Q_learn.py`.
+5. Plot and save histogram while calculating metrics with `python plot_hist.py NAME_OF_NPY_FILE`.  
+  a. Ex: `python plot_hist.py hist` for `hist.npy`.  
+  b. Metrics: Mean score, Mean score (last 30 epochs), SD score, SD score (last 30 epochs), High score, High score epoch.  
 
 ## State Feature Selection Trials  
 1. Trial 1  
