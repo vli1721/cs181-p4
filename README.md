@@ -13,9 +13,9 @@ Team Members: Vincent Li, Harry Fu, Nathan Zhao
   a. Metrics: Mean score, Mean score (last 30 epochs), SD score, SD score (last 30 epochs), High score, High score epoch.  
 
 ## State Feature Selection Trials  
-1. Trial 1
+1. Trial 1  
   a. Baseline (leave file unchanged).  
-2. Trial 2
+2. Trial 2  
   a. Uncomment line 93 and comment lines 83-91 to change Discretized Monkey Velocity calculation.  
 3. Trial 3  
   a. Uncomment line 93 and comment lines 83-91 to change Discretized Monkey Velocity calculation.  
